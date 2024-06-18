@@ -10,3 +10,4 @@ bottle
 coloredlogs
 qualysapi>=5.1.0
 httpretty
+urllib3>=1.26.19 # not directly required, pinned by Snyk to avoid a vulnerability
